@@ -1,0 +1,57 @@
+{
+  "telecom_employee": {
+    "employee_id": "EMP3001",
+    "name": "Ankita Singh",
+    "email": "ankita.singh@telecomnet.in",
+    "phone": "+919812004500",
+    "profile_image": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
+    "address": "E-22, Sector 62, Noida, Uttar Pradesh",
+    "gender": "Female",
+    "dob": "1992-04-15",
+    "designation": "Customer Support Executive",
+    "assigned_operator": "Airtel",
+    "joining_date": "2023-01-12",
+    "experience_years": 2.5,
+    "skills": ["Customer Handling", "CRM Software", "Conflict Resolution", "Multilingual (Hindi, English)"],
+    "current_status": "Active",
+    "shift": "Morning (9 AM - 6 PM)",
+    "calls_handled_today": 45,
+    "total_calls_handled": 987,
+    "expected_calls_today": 60,
+    "calls_queued": 15,
+    "future_schedule": [
+      {
+        "date": "2025-08-02",
+        "expected_calls": 60
+      },
+      {
+        "date": "2025-08-03",
+        "expected_calls": 55
+      }
+    ],
+    "performance": {
+      "average_call_duration_minutes": 4.5,
+      "positive_feedback_percentage": 92,
+      "first_call_resolution_rate": 85,
+      "escalation_rate": 2
+    },
+    "work_history": [
+      {
+        "company": "TeleTech Support",
+        "role": "Support Trainee",
+        "duration_years": 1.2
+      },
+      {
+        "company": "FastConnect Services",
+        "role": "Call Center Executive",
+        "duration_years": 1.0
+      }
+    ],
+    "supervisor": {
+      "name": "Rahul Mehra",
+      "email": "rahul.mehra@telecomnet.in",
+      "phone": "+919810123456"
+    },
+    "remarks": "One of the top performers in her batch, consistently receives excellent customer ratings."
+  }
+}

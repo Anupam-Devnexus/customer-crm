@@ -1,0 +1,65 @@
+{
+    "customer_profiles": [
+        {
+            "id": "CUS1001",
+            "name": "Priya Sharma",
+            "email": "priya.sharma@example.com",
+            "phone": "+91-9876543210",
+            "location": "Mumbai, India",
+            "registered_on": "2022-05-14",
+            "status": "Active",
+            "preferred_contact_method": "Email",
+            "support_tier": "Gold",
+            "recent_activity": "2025-07-30",
+            "tickets": [
+                {
+                    "ticket_id": "TCKT1009",
+                    "subject": "Payment not processed",
+                    "status": "Resolved",
+                    "priority": "High",
+                    "created_on": "2025-07-10",
+                    "resolved_on": "2025-07-12",
+                    "assigned_agent": "Ravi Deshmukh",
+                    "channel": "Email",
+                    "feedback_rating": 4
+                },
+                {
+                    "ticket_id": "TCKT1015",
+                    "subject": "Unable to reset password",
+                    "status": "Open",
+                    "priority": "Medium",
+                    "created_on": "2025-07-28",
+                    "assigned_agent": "Sneha Joshi",
+                    "channel": "Chat"
+                }
+            ],
+            "interactions": [
+                {
+                    "interaction_id": "INT1001",
+                    "date": "2025-07-28",
+                    "channel": "Chat",
+                    "agent": "Sneha Joshi",
+                    "notes": "Customer asked for help with password reset. Sent instructions via chat."
+                },
+                {
+                    "interaction_id": "INT0995",
+                    "date": "2025-07-10",
+                    "channel": "Email",
+                    "agent": "Ravi Deshmukh",
+                    "notes": "Explained the payment issue and resolved it with refund confirmation."
+                }
+            ],
+            "preferences": {
+                "language": "English",
+                "time_zone": "Asia/Kolkata",
+                "newsletter_subscribed": true,
+                "product_updates_opt_in": true
+            },
+            "tags": [
+                "payment issue",
+                "active",
+                "gold-tier"
+            ]
+        }
+    ]
+}

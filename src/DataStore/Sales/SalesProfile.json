@@ -1,0 +1,93 @@
+{
+  "sales_person_id": "SP1001",
+  "name": "Rahul Verma",
+  "email": "rahul.verma@salescorp.com",
+  "phone": "+91-9876543210",
+  "region": "North Zone",
+  "joined_date": "2022-04-15",
+  "designation": "Senior Sales Executive",
+  "profile_image": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+
+  "performance_metrics": {
+    "monthly_target": 500000,
+    "achieved": 450000,
+    "target_achievement_percentage": 90,
+    "leads_converted": 35,
+    "calls_made": 120,
+    "emails_sent": 85
+  },
+
+  "leads_assigned": [
+    {
+      "lead_id": "LD2001",
+      "lead_name": "Sunita Enterprises",
+      "status": "Follow Up",
+      "value": 85000,
+      "contact_person": "Sunita Rao",
+      "contact_number": "+91-9911223344",
+      "last_contacted": "2025-07-25",
+      "next_followup": "2025-08-03"
+    },
+    {
+      "lead_id": "LD2002",
+      "lead_name": "TechNova Pvt Ltd",
+      "status": "Closed - Won",
+      "value": 120000,
+      "contact_person": "Abhinav Desai",
+      "contact_number": "+91-9988776655",
+      "last_contacted": "2025-07-28",
+      "next_followup": null
+    }
+  ],
+
+  "sales_history": [
+    {
+      "sale_id": "S1001",
+      "client": "GreenField Agro",
+      "amount": 75000,
+      "date": "2025-06-12",
+      "status": "Completed"
+    },
+    {
+      "sale_id": "S1002",
+      "client": "Nova Tech",
+      "amount": 120000,
+      "date": "2025-07-02",
+      "status": "Completed"
+    },
+    {
+      "sale_id": "S1003",
+      "client": "Shine Retail",
+      "amount": 45000,
+      "date": "2025-07-24",
+      "status": "Pending"
+    }
+  ],
+
+  "communication_log": [
+    {
+      "type": "Call",
+      "lead_id": "LD2001",
+      "timestamp": "2025-07-25T10:30:00",
+      "summary": "Discussed pricing and benefits. Asked to follow up next week."
+    },
+    {
+      "type": "Email",
+      "lead_id": "LD2002",
+      "timestamp": "2025-07-22T15:45:00",
+      "summary": "Shared proposal document and pricing. Awaiting response."
+    }
+  ],
+
+  "reviews": [
+    {
+      "review_by": "Zonal Manager",
+      "date": "2025-07-01",
+      "rating": 4.5,
+      "comment": "Good consistency in lead conversion. Can improve on call responsiveness."
+    }
+  ],
+
+  "current_status": "Active",
+  "last_updated": "2025-08-01T08:45:00"
+}

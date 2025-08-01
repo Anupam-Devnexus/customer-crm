@@ -1,0 +1,79 @@
+{
+  "telecom_profiles": [
+    {
+      "user_id": "USER1001",
+      "name": "Rohit Verma",
+      "email": "rohit.verma@example.com",
+      "phone": "+919812345678",
+      "address": "D-42, Sector 15, Noida, Uttar Pradesh",
+      "assigned_operator": "Jio",
+      "sim_type": "Postpaid",
+      "plan": {
+        "plan_id": "PLN2001",
+        "name": "Jio Plus 799",
+        "validity_days": 30,
+        "data_per_day": "2GB",
+        "sms_per_day": 100,
+        "price": 799
+      },
+      "connection_status": "Active",
+      "activation_date": "2025-07-01",
+      "last_recharge": {
+        "amount": 799,
+        "date": "2025-07-01",
+        "mode": "UPI"
+      },
+      "usage": {
+        "data_used_gb": 45.3,
+        "sms_sent": 45,
+        "calls_made": 120
+      },
+      "kyc_status": "Verified"
+    }
+    
+  ],
+  "available_operators": [
+    "Jio",
+    "Airtel",
+    "Vi",
+    "BSNL"
+  ],
+  "plans": [
+    {
+      "plan_id": "PLN2001",
+      "operator": "Jio",
+      "name": "Jio Plus 799",
+      "price": 799,
+      "validity_days": 30,
+      "data_per_day": "2GB",
+      "sms_per_day": 100
+    },
+    {
+      "plan_id": "PLN2002",
+      "operator": "Jio",
+      "name": "Jio 199 Prepaid",
+      "price": 199,
+      "validity_days": 28,
+      "data_per_day": "1.5GB",
+      "sms_per_day": 100
+    },
+    {
+      "plan_id": "PLN2003",
+      "operator": "Airtel",
+      "name": "Airtel 299 Plan",
+      "price": 299,
+      "validity_days": 28,
+      "data_per_day": "1.5GB",
+      "sms_per_day": 100
+    },
+    {
+      "plan_id": "PLN2004",
+      "operator": "Vi",
+      "name": "Vi Unlimited 249",
+      "price": 249,
+      "validity_days": 28,
+      "data_per_day": "2GB",
+      "sms_per_day": 100
+    }
+  ]
+}
