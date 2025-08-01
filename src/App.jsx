@@ -16,7 +16,7 @@ import TLALLdata from './Pages/TL/TLALLdata';
 
 
 // Sales Pages
-import SalesProfile from './Pages/Sales/SalesProfile';
+import SalesProfile from './Pages/Sales/Salesprofile';
 import Salestoday from "./Pages/Sales/SALEStoday";
 
 
